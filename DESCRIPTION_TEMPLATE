@@ -1,0 +1,12 @@
+Package: TestPackage
+Type: Package
+Title: This Is Only A Test
+Version: 1.0.0
+Depends: R (>= 2.15)
+Author: RStudio Package Manager
+Maintainer: RSPM <rspm@rstudio.com>
+Description: This is a test
+License: MIT
+Encoding: UTF-8
+LazyData: true
+
