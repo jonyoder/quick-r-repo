@@ -1,0 +1,13 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "Test Repo for RStudio Package Manager",
+  "author": "rspm@rstudio.com",
+  "private": true,
+  "scripts": {
+    "api": "json-server --watch data.json --fks _id --host --port 3004"
+  },
+  "devDependencies": {
+    "json-server": "^0.14.2"
+  }
+}
