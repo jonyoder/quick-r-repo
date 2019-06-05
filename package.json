@@ -5,7 +5,8 @@
   "author": "rspm@rstudio.com",
   "private": true,
   "scripts": {
-    "api": "json-server --watch data.json --fks _id --host --port 3004"
+    "api": "json-server --watch data.json --fks _id --host --port 3004",
+    "make": "./make-package.sh"
   },
   "devDependencies": {
     "json-server": "^0.14.2"
