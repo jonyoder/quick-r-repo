@@ -30,3 +30,8 @@ r <- getOption("repos");
 r["CRAN"] <- "http://localhost:3004";
 options(repos = r);
 ```
+
+## Edit Templates
+
+If you wish to change the `DESCRIPTION` file template, edit `DESCRIPTION_TEMPLATE`. If you wish
+to change the R code included in the dummy package, edit `R_TEMPLATE`.
